@@ -29,6 +29,7 @@ namespace LineComparison
             var point2 = Math.Pow((y2 - y1), 2);
             var Length = Math.Sqrt(point1 + point2);
             Console.WriteLine("Return value (Equals) = " + point1.Equals(point2));
+            Console.WriteLine("Return value (comparison) = " + point1.CompareTo(point2));
 
             return Length;
             //Console.ReadKey();
